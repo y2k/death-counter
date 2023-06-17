@@ -22,3 +22,5 @@ FROM scratch
 
 COPY --from=build /app/index.html /build_result/index.html
 COPY --from=build /app/out/main.js /build_result/out/main.js
+
+CMD [ "" ]
